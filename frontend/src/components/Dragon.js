@@ -27,7 +27,7 @@ class Dragon extends Component {
     render() {
 
         <div>
-            <Button onClock= {()=> this. fetchDragon()}>New Dragon</Button>
+            <Button onClick= {()=> this. fetchDragon()}>New Dragon</Button>
             <DragonAvatar dragon={this.state.dragon} />
         </div>
         

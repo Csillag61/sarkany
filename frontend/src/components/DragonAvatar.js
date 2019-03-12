@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 
+
 class DragonAvatar extends Component {
 
     render(){
@@ -10,7 +11,7 @@ class DragonAvatar extends Component {
             <span>G{generationId}.</span>
                 <span>I{dragonId}. </span>
 
-                {dragon.traits.map(trait => trait.traitValue).join(', ')}
+                {traits.map(trait => trait.traitValue).join(', ')}
                 
             </div>
         )
