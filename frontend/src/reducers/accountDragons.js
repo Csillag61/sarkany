@@ -14,7 +14,7 @@ const accountDragons = (state = DEFAULT_ACCOUNT_DRAGONS, action) => {
       return { ...state, status: fetchStates.success, message: action.message, dragons: action.dragons };
     default:
       return state;
-  };
+  }
 };
 
 export default accountDragons;

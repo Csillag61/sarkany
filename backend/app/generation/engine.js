@@ -20,8 +20,9 @@ class GenerationEngine {
 
     GenerationTable.storeGeneration(generation)
     .then(({ generationId})=>{
+      generation.setId(generationId);
       this.generation = generation;
-      this.generation.generationId = generationId;
+      
    
 
    

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Button } from 'react-bootstrap';
 import { connect } from 'react-redux';
 import { BACKEND } from '../config';
-import history from '../history';
+import history from 'history';
 
 class MatingOptions extends Component {
   mate = ({ patronDragonId, matronDragonId }) => () => {
